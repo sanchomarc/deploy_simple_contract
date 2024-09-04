@@ -1,9 +1,11 @@
 {
+  "name": "hardhat-project",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.10",
-    "install": "^0.13.0",
-    "npm": "^10.8.3",
-    "npx": "^10.2.2"
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.17.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "@swisstronik/utils": "^1.2.1"
   }
 }
